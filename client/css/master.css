@@ -3,12 +3,24 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.header {
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+}
+
+.main {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
   flex-direction: row;
 }
 
 .first {
   width: 33vw;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,16 +29,16 @@ body{
 
 .second {
   width: 33vw;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.final {
+.third {
   width: 33vw;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

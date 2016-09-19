@@ -7,27 +7,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   </head>
   <body ng-controller='MainController'>
-    <h1>Split.r</h1>
-    <div class='first'>
-      <label>First Min</label>
-      <input ng-model='firstmin' type='text'>
-      <label>First Sec</label>
-      <input ng-model='firstsec' type='text'>
-      <label>First Tenth</label>
-      <input ng-model='firsttenth' type='text'>
+    <div class='header'>
+      <h1>Split.r</h1>
     </div>
-    <div class='second'>
-      <label>Second Min</label>
-      <input ng-model='secondmin' type='text'>
-      <label>Second Sec</label>
-      <input ng-model='secondsec' type='text'>
-      <label>Second Tenth</label>
-      <input ng-model='secondtenth' type='text'>
-    </div>
-
-    <div class='final'>
-      <label>Final Time</label>
-      <h3 ng-model='final'></h3>
+    <div class='main'>
+      <div class='first'>
+        <label>First Time</label>
+        <input ng-model='firsttime' type='number'>
+        <label>Second Time</label>
+        <input ng-model='secondtime' type='number'>
+      </div>
+      <div class='second'>
+        <label>First Split</label>
+        <input ng-model='firstsplit' type='number'>
+        <label>Second Split</label>
+        <input ng-model='secondsplit' type='number'>
+      </div>
     </div>
   </body>
   <script src="../js/app.js" charset="utf-8"></script>
